@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "304923385830",
+    "project_id": "quemvaita"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304923385830:android:f8b1f637136c374a",
+        "android_client_info": {
+          "package_name": "com.widevision.quemvaita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARDw9t6rSX2sFEJv5g0udbBl2H3hw3w6I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/rocks/Documents/Application/shivangi project/Quemvaita/lib/build/intermediates/res/merged/androidTest/debug/layout/emojicons.xml",
+        "source": "/Users/rocks/Documents/Application/shivangi project/Quemvaita/lib/build/intermediates/bundles/debug/res/layout/emojicons.xml"
+    },
+    {
+        "merged": "/Users/rocks/Documents/Application/shivangi project/Quemvaita/lib/build/intermediates/res/merged/androidTest/debug/layout/emojicon_grid.xml",
+        "source": "/Users/rocks/Documents/Application/shivangi project/Quemvaita/lib/build/intermediates/bundles/debug/res/layout/emojicon_grid.xml"
+    },
+    {
+        "merged": "/Users/rocks/Documents/Application/shivangi project/Quemvaita/lib/build/intermediates/res/merged/androidTest/debug/layout/emojicon_item.xml",
+        "source": "/Users/rocks/Documents/Application/shivangi project/Quemvaita/lib/build/intermediates/bundles/debug/res/layout/emojicon_item.xml"
+    }
+]

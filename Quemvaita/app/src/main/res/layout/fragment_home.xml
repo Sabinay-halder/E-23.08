@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:staggered="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDD6C2"
+    android:clickable="true">
+
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See People in:"
+            android:textColor="@color/app_backgroug"
+            android:textSize="13sp" />
+
+
+        <com.widevision.quemvaita.model.CustomTextView
+            android:id="@+id/all_event_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:drawableLeft="@drawable/radio_btn_selected"
+            android:padding="3dp"
+            android:text="  All events"
+            android:textColor="@color/app_backgroug"
+            android:textSize="12sp" />
+
+        <com.widevision.quemvaita.model.CustomTextView
+            android:id="@+id/selected_event_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/radio_btn_unselected"
+            android:padding="3dp"
+            android:text="  Event i selected"
+            android:textColor="@color/app_backgroug"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        android:numColumns="2" />
+
+</RelativeLayout>

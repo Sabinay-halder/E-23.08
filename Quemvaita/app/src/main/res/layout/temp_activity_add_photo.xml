@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/white">
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mobile_back_img"/>
+        <com.widevision.quemvaita.model.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Drag n Drop to order photos"
+            android:textColor="@color/app_backgroug"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/linear"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:background="#c1c1c1">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_btn"
+            android:layout_alignRight="@id/image"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="5dp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@id/gridview"
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <com.widevision.quemvaita.model.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Photos "
+            android:textColor="@color/app_backgroug"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

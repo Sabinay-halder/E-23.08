@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/relative_above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E9E9E9">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img"/>
+        <com.widevision.quemvaita.model.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caption Title"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/user_name"
+            android:layout_above="@+id/camera"/>
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camera_icon"
+            android:layout_alignBottom="@+id/image" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/camera"
+            android:layout_alignBottom="@+id/image"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/number_circle" />
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook_like_thumb_copy"
+            android:layout_below="@+id/image"
+            />
+        <ImageView
+            android:id="@+id/line"
+            android:layout_toRightOf="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/likes_divider"
+            android:layout_below="@+id/image"
+            />
+        <ImageView
+            android:id="@+id/dislike"
+            android:layout_toRightOf="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook_dislike_thumb"
+
+            android:layout_below="@+id/image"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

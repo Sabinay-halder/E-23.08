@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quemvaita</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1348673185159078</string>
+    <string name="error_connect">Failed to connect</string>
+
+    <string name="wrong">Something went wrong, Please try again.</string>
+    <string name="no_internet">No Internet connectivity ,Please connect to your network.</string>
+    <string name="app_url">https://play.google.com/store/apps/details?id=com.widevision.quemvaita</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="event_fragment_txt">Who accesses your selected events sees you.</string>
+    <string name="account_cancel">Your account has been cancelled.</string>
+</resources>
